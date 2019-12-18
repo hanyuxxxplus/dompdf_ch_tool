@@ -7,6 +7,6 @@
  */
 require './vendor/autoload.php';
 
-use Ihanyv\DompdfChTool\Tools;
+use Ihanyv\Execute;
 
-Tools::Hello();
+Execute::load_font();

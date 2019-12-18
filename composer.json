@@ -13,7 +13,7 @@
     },
     "autoload":{
         "psr-4": {
-            "Ihanyv\\DompdfChTool\\":"src/Ihanyv/DompdfChTool"
+            "Ihanyv\\":"src/Ihanyv"
         }
     }
 }
