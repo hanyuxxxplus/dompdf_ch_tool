@@ -26,7 +26,7 @@ class Execute
         }
     }
 
-    public function ch_text()
+    public static function  ch_text()
     {
         // ihanyv 目录
         $ihanyv = dirname(dirname(__FILE__));
@@ -44,9 +44,9 @@ class Execute
 
         //dompdf\dompdf\src\FrameReflower
         // 本地text.php 目录
-        $local = $ihanyv. '/DompdfChTool/Text.php';
+        $local = $ihanyv. '/Ihanyv/DompdfChTool/Text.php';
         // text.php 目录
-        $target = $vendor.'/dompdf/dompdf/src/FrameReflower/Text.php';
+        $target = $vendor.'/vendor/dompdf/dompdf/src/FrameReflower/Text.php';
 
         system("cp $local $target");
     }
