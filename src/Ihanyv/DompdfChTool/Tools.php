@@ -16,6 +16,6 @@ class Tools
 
     public static function Hello()
     {
-        echo 'test tools';
+        echo 'test tools version change';
     }
 }
