@@ -1,6 +1,7 @@
 {
     "name": "ihanyv/dompdf-ch-tool",
     "type": "library",
+    "license":"hyzzz",
     "authors": [
         {
             "name": "Han Yu",
